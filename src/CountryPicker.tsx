@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import {
-    Text, TouchableOpacity, View, Modal,
+    Text, TouchableOpacity, View,
 } from 'react-native';
+import Modal from "./Modal";
 import { Picker } from '@react-native-picker/picker';
 
 import Country from './country';
