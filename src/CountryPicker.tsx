@@ -2,12 +2,12 @@ import React, { Component } from 'react';
 import {
     Text, TouchableOpacity, View,
 } from 'react-native';
-import Modal from "./Modal";
 import { Picker } from '@react-native-picker/picker';
 
 import Country from './country';
 import styles from './styles';
 import { ReactNativeCountryPickerProps, ReactNativeCountryPickerState } from './typings';
+import Modal from "./Modal";
 
 const PickerItem = Picker.Item;
 
